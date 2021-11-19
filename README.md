@@ -2,6 +2,8 @@
 
 Testing with Corsair logo utilizing Tensorflow Single Shot MultiBox Detector (SSD)
 
+![](https://github.com/eugenechung81/endorse-logo-detection-poc/blob/master/frames/test5.0.jpg)
+
 ## Single Shot MultiBox Detector
 
   * Uses single deep neutral network (single shot detector), set default box over different aspect ratios and scales
@@ -53,6 +55,6 @@ Check file:
 
 # Resources
 
-https://towardsdatascience.com/logo-detection-in-images-using-ssd-bcd3732e1776
-https://arxiv.org/pdf/1512.02325.pdf
-https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab
+* https://towardsdatascience.com/logo-detection-in-images-using-ssd-bcd3732e1776
+* https://arxiv.org/pdf/1512.02325.pdf
+* https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab
