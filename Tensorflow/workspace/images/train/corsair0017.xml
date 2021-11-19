@@ -1,0 +1,26 @@
+<annotation>
+	<folder>allimages</folder>
+	<filename>corsair0017.png</filename>
+	<path>D:\Development\RealTimeObjectDetection\Tensorflow\workspace\allimages\corsair0017.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>1200</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>corsair</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>618</xmin>
+			<ymin>249</ymin>
+			<xmax>808</xmax>
+			<ymax>392</ymax>
+		</bndbox>
+	</object>
+</annotation>
