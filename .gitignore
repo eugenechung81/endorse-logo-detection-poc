@@ -1,3 +1,4 @@
 .ipynb_checkpoints
 /.idea/
 /Tensorflow/labelImg/
+/Tensorflow/labelImg/libs/resources.qrc

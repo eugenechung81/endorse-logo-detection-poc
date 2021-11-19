@@ -1,6 +1,14 @@
 # Endorse Logo Detection POC
 
-Testing with Corsair logo utilizing Tensorflow
+Testing with Corsair logo utilizing Tensorflow Single Shot MultiBox Detector (SSD)
+
+## Single Shot MultiBox Detector
+
+  * Uses single deep neutral network (single shot detector), set default box over different aspect ratios and scales
+  * Faster than other algos like COOCO, PASCAL VOC, YOLO, Faster R-CNN with good accuracy. 59 FPS at 75% accurancy.
+  * SSD performs better on large objects vs smaller objects.
+  * Need to have a negative to positive exmaples ratio of 3:1 (need to know what is negative detectio)
+  * Features maps (conv1: edge + blob ) + conv 3: texture, conv5 : object parts, fc8: boject classes
 
 ## Training
 
@@ -42,3 +50,9 @@ Check file:
          0.0       0.00      0.00      0.00        27
          1.0       0.96      1.00      0.98       708
 ```
+
+# Resources
+
+https://towardsdatascience.com/logo-detection-in-images-using-ssd-bcd3732e1776
+https://arxiv.org/pdf/1512.02325.pdf
+https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab
